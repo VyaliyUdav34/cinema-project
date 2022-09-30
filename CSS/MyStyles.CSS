@@ -193,3 +193,16 @@ option
 {
     min-width: 470px;
 }
+.scheme
+{
+    background: rgba(36, 36, 36, 0.18);
+    border-radius: 10px;
+}
+.scheme path:not(.light)
+{
+    fill:rgba(255,255,255,0.2)
+}
+.scheme path.light
+{
+    fill:linear-gradient(180deg, rgba(196, 196, 196, 0.21) 0%, rgba(196, 196, 196, 0) 100%);
+} 
